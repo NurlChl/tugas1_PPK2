@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: "poppins";
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    background-color: #50acb7;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.64);
+    -moz-box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.64);
+
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div span {
+    display: flex;
+    flex-direction: column;
+}
+
+nav div span h4 {
+    font-size: 1rem;
+}
+
+nav div span p {
+    font-size: .8rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background-color: #32CAC9;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 5rem 10rem;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: .5rem;
+}
+
+header img {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+    transform: scaleX(-1);
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.071);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #cfeded;
+    padding: 5rem 10rem;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+.skills div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.skills div ul span {
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.skills div ul span li {
+    display: flex;
+    justify-content: end;
+    padding: .5rem;
+    color: white;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(63, 169, 169);
+}
+
+.special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #2F2D40;
+    padding: 5rem 10rem;
+}
+
+/* .special h1 {
+    text-align: center;
+} */
+
+.special div ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.special div ul li {
+    background-color: rgb(220, 128, 0);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: white;
+    font-size: .8rem;
+}
+
